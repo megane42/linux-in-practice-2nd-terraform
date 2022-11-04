@@ -1,4 +1,6 @@
-# Usage
+# 使用方法
+
+- terraform をインストールした端末上で実行する
 
 ```sh
 cp    locals.tf.sample locals.tf
@@ -11,7 +13,9 @@ terraform apply
 ssh -i ~/.ssh/id_rsa ubuntu@[ec2_public_ip]
 ```
 
-# Checking cloud-init log on ec2
+# cloud-init 実行ログの確認方法
+
+- ec2 インスタンス上で実行する
 
 ```
 tail -f /var/log/cloud-init-output.log
