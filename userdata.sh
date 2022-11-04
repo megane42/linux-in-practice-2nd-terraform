@@ -5,3 +5,5 @@ apt install -y binutils build-essential golang sysstat python3-matplotlib python
 adduser `id -un` libvirt
 adduser `id -un` libvirt-qemu
 adduser `id -un` kvm
+
+timedatectl set-timezone Asia/Tokyo
